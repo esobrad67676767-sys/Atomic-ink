@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atomic Ink: tienda en línea de cómics, manga y novelas gráficas.">
+  <title>Atomic Ink | Inicio</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <a href="index.html" class="logo-enlace"><img id="logo" src="img/logo-oscuro.png" alt="Logotipo de Atomic Ink: átomo con una gota de tinta"></a>
+
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label for="menu-check" class="menu-toggle" aria-label="Abrir o cerrar el menú">&#9776;</label>
+
+    <nav class="menu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion bienvenida">
+      <img class="logo-grande" src="img/logo-principal.png" alt="Logotipo principal de Atomic Ink: átomo con gota de tinta y la leyenda cómics, manga, novelas gráficas">
+      <h1>¡Tu próxima historia empieza aquí!</h1>
+      <p>Cómics, manga y novelas gráficas para pedir desde casa. Encuentra tu siguiente lectura favorita.</p>
+      <a href="catalogo.html" class="boton-primario">Ver catálogo</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="boton-secundario">Síguenos en Instagram</a>
+    </section>
+
+      <section class="seccion" aria-labelledby="t-comics">
+        <h2 id="t-comics">Cómics</h2>
+        <p>Héroes, villanos y mucha acción.</p>
+        <div class="carrusel">
+          <div class="slides">
+            <figure class="slide" id="comics-1">
+              <img src="img/batman.jpg" alt="Portada de Absolute Batman número 1: Batman con armadura de picos y un martillo frente a una ciudad">
+              <figcaption>Absolute Batman #1</figcaption>
+            </figure>
+            <figure class="slide" id="comics-2">
+              <img src="img/spiderman.jpg" alt="Portada de The Amazing Spider-Man 316: Venom sobre Spider-Man en tonos negro y rojo">
+              <figcaption>The Amazing Spider-Man #316</figcaption>
+            </figure>
+            <figure class="slide" id="comics-3">
+              <img src="img/ironman.jpg" alt="Portada de Iron Man The Stark-Roxxon War: Tony Stark con armadura y cables">
+              <figcaption>Iron Man: The Stark-Roxxon War</figcaption>
+            </figure>
+            <figure class="slide" id="comics-4">
+              <img src="img/invincible.jpg" alt="Portada de Invincible número 1: el héroe sonriente con traje azul y amarillo sobre fondo rojo">
+              <figcaption>Invincible #1</figcaption>
+            </figure>
+          </div>
+          <nav class="puntos" aria-label="Seleccionar portada de Cómics">
+            <a href="#comics-1" aria-label="Ir a la portada 1 de Cómics">1</a>
+            <a href="#comics-2" aria-label="Ir a la portada 2 de Cómics">2</a>
+            <a href="#comics-3" aria-label="Ir a la portada 3 de Cómics">3</a>
+            <a href="#comics-4" aria-label="Ir a la portada 4 de Cómics">4</a>
+          </nav>
+        </div>
+      </section>
+      <section class="seccion" aria-labelledby="t-manga">
+        <h2 id="t-manga">Manga</h2>
+        <p>Series para leer de principio a fin.</p>
+        <div class="carrusel">
+          <div class="slides">
+            <figure class="slide" id="manga-1">
+              <img src="img/haikyu.jpg" alt="Portada de Haikyu volumen 9: jugador de voleibol de cabello naranja mirando hacia arriba">
+              <figcaption>Haikyu!! vol. 9</figcaption>
+            </figure>
+            <figure class="slide" id="manga-2">
+              <img src="img/deathnote.jpg" alt="Portada de Death Note volumen 1: joven con cruz y un shinigami detrás">
+              <figcaption>Death Note vol. 1</figcaption>
+            </figure>
+            <figure class="slide" id="manga-3">
+              <img src="img/jojo.jpg" alt="Portada de JoJo Stone Ocean con dos personajes sobre fondo azul y rojo">
+              <figcaption>JoJo's Bizarre Adventure: Stone Ocean</figcaption>
+            </figure>
+            <figure class="slide" id="manga-4">
+              <img src="img/demonslayer.jpg" alt="Portada de Demon Slayer volumen 8: espadachín de cabello rubio y rojo con una espada">
+              <figcaption>Demon Slayer vol. 8</figcaption>
+            </figure>
+            <figure class="slide" id="manga-5">
+              <img src="img/jujutsu.jpg" alt="Portada de Jujutsu Kaisen volumen 7: personaje de cabello oscuro con sangre en el rostro">
+              <figcaption>Jujutsu Kaisen vol. 7</figcaption>
+            </figure>
+          </div>
+          <nav class="puntos" aria-label="Seleccionar portada de Manga">
+            <a href="#manga-1" aria-label="Ir a la portada 1 de Manga">1</a>
+            <a href="#manga-2" aria-label="Ir a la portada 2 de Manga">2</a>
+            <a href="#manga-3" aria-label="Ir a la portada 3 de Manga">3</a>
+            <a href="#manga-4" aria-label="Ir a la portada 4 de Manga">4</a>
+            <a href="#manga-5" aria-label="Ir a la portada 5 de Manga">5</a>
+          </nav>
+        </div>
+      </section>
+      <section class="seccion" aria-labelledby="t-novelas">
+        <h2 id="t-novelas">Novelas gráficas</h2>
+        <p>Historias completas en viñetas.</p>
+        <div class="carrusel">
+          <div class="slides">
+            <figure class="slide" id="novelas-1">
+              <img src="img/principito.jpg" alt="Portada de El Principito de Joann Sfar: niño de cabello rubio con bufanda y un avión rojo">
+              <figcaption>El Principito (Joann Sfar)</figcaption>
+            </figure>
+            <figure class="slide" id="novelas-2">
+              <img src="img/emi.jpg" alt="Portada de Sueños rotos Emi de H. G. Santarriaga con ilustración en rojo y amarillo">
+              <figcaption>Sueños rotos: Emi</figcaption>
+            </figure>
+            <figure class="slide" id="novelas-3">
+              <img src="img/dreaming.jpg" alt="Portada de The Dreaming número 1: mujer con alas en la oreja dentro de una biblioteca">
+              <figcaption>The Dreaming #1</figcaption>
+            </figure>
+            <figure class="slide" id="novelas-4">
+              <img src="img/jaguar.jpg" alt="Portada de La leyenda del Guerrero Jaguar: guerrero frente a un eclipse y otros personajes">
+              <figcaption>La leyenda del Guerrero Jaguar</figcaption>
+            </figure>
+          </div>
+          <nav class="puntos" aria-label="Seleccionar portada de Novelas gráficas">
+            <a href="#novelas-1" aria-label="Ir a la portada 1 de Novelas gráficas">1</a>
+            <a href="#novelas-2" aria-label="Ir a la portada 2 de Novelas gráficas">2</a>
+            <a href="#novelas-3" aria-label="Ir a la portada 3 de Novelas gráficas">3</a>
+            <a href="#novelas-4" aria-label="Ir a la portada 4 de Novelas gráficas">4</a>
+          </nav>
+        </div>
+      </section>
+    <section class="seccion">
+      <h2>¿Por qué comprar en Atomic Ink?</h2>
+      <div class="rejilla tres">
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">&#128666;</span>
+          <h3>Envíos a todo México</h3>
+          <p>Tu pedido llega en caja de envío con sticker de sellado y guía de rastreo.</p>
+        </article>
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">&#128214;</span>
+          <h3>Catálogo variado</h3>
+          <p>Superhéroes, manga y novelas gráficas de autores de todo el mundo.</p>
+        </article>
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">&#127873;</span>
+          <h3>Club Atomic</h3>
+          <p>Suscríbete para recibir lanzamientos y promociones antes que nadie.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="lema">Cómics · Manga · Novelas gráficas</p>
+    <p>&copy; 2026 Atomic Ink. Proyecto académico de Mercadotecnia Digital.</p>
+    <p>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#128247;</span> Instagram</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#127916;</span> TikTok</a>
+      <a href="contacto.html"><span aria-hidden="true">&#9993;</span> Contacto</a>
+    </p>
+  </footer>
+
+</body>
+</html>

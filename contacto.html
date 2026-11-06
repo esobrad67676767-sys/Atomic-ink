@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacta a Atomic Ink para pedidos, dudas o unirte al Club Atomic.">
+  <title>Atomic Ink | Contacto</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <a href="index.html" class="logo-enlace"><img id="logo" src="img/logo-oscuro.png" alt="Logotipo de Atomic Ink: átomo con una gota de tinta"></a>
+
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label for="menu-check" class="menu-toggle" aria-label="Abrir o cerrar el menú">&#9776;</label>
+
+    <nav class="menu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h1>Contacto</h1>
+      <p>¿Tienes dudas sobre un pedido o quieres unirte al Club Atomic? Escríbenos y te respondemos pronto.</p>
+    </section>
+
+    <section class="seccion">
+      <h2>Envíanos un mensaje</h2>
+      <form class="formulario" action="#" method="post">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+        <label for="tema">Motivo</label>
+        <select id="tema" name="tema">
+          <option>Quiero hacer un pedido</option>
+          <option>Duda sobre un producto</option>
+          <option>Unirme al Club Atomic</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje" required></textarea>
+
+        <button type="submit" class="boton-primario">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <section class="seccion">
+      <h2>Otras formas de contacto</h2>
+      <ul class="lista-contacto">
+        <li><span aria-hidden="true">&#127760;</span> www.atomicink.com.mx</li>
+        <li><span aria-hidden="true">&#128247;</span> <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram @atomicink</a></li>
+        <li><span aria-hidden="true">&#127916;</span> <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok @atomicink</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="lema">Cómics · Manga · Novelas gráficas</p>
+    <p>&copy; 2026 Atomic Ink. Proyecto académico de Mercadotecnia Digital.</p>
+    <p>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#128247;</span> Instagram</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#127916;</span> TikTok</a>
+      <a href="contacto.html"><span aria-hidden="true">&#9993;</span> Contacto</a>
+    </p>
+  </footer>
+
+</body>
+</html>

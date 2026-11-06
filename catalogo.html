@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de cómics, manga y novelas gráficas de Atomic Ink.">
+  <title>Atomic Ink | Catálogo</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <a href="index.html" class="logo-enlace"><img id="logo" src="img/logo-oscuro.png" alt="Logotipo de Atomic Ink: átomo con una gota de tinta"></a>
+
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label for="menu-check" class="menu-toggle" aria-label="Abrir o cerrar el menú">&#9776;</label>
+
+    <nav class="menu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html" class="activo">Catálogo</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h1>Catálogo</h1>
+      <p>Elige tu categoría favorita y disfruta.</p>
+    </section>
+
+    <section class="seccion" aria-labelledby="c-comics">
+      <h2 id="c-comics">Cómics</h2>
+      <div class="rejilla cuatro">
+        <article class="producto">
+          <img src="img/batman.jpg" alt="Portada de Absolute Batman número 1: Batman con armadura de picos y un martillo frente a una ciudad">
+          <h3>Absolute Batman #1</h3>
+          <p class="etiqueta">Cómic de superhéroes</p>
+          <p class="precio">$249 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/spiderman.jpg" alt="Portada de The Amazing Spider-Man 316: Venom sobre Spider-Man en tonos negro y rojo">
+          <h3>The Amazing Spider-Man #316</h3>
+          <p class="etiqueta">Cómic de superhéroes</p>
+          <p class="precio">$329 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/ironman.jpg" alt="Portada de Iron Man The Stark-Roxxon War: Tony Stark con armadura y cables">
+          <h3>Iron Man: The Stark-Roxxon War</h3>
+          <p class="etiqueta">Cómic de superhéroes</p>
+          <p class="precio">$279 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/invincible.jpg" alt="Portada de Invincible número 1: el héroe sonriente con traje azul y amarillo sobre fondo rojo">
+          <h3>Invincible #1</h3>
+          <p class="etiqueta">Cómic de superhéroes</p>
+          <p class="precio">$219 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="c-manga">
+      <h2 id="c-manga">Manga</h2>
+      <div class="rejilla cuatro">
+        <article class="producto">
+          <img src="img/haikyu.jpg" alt="Portada de Haikyu volumen 9: jugador de voleibol de cabello naranja mirando hacia arriba">
+          <h3>Haikyu!! vol. 9</h3>
+          <p class="etiqueta">Manga deportivo</p>
+          <p class="precio">$169 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/deathnote.jpg" alt="Portada de Death Note volumen 1: joven con cruz y un shinigami detrás">
+          <h3>Death Note vol. 1</h3>
+          <p class="etiqueta">Manga de misterio</p>
+          <p class="precio">$179 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/jojo.jpg" alt="Portada de JoJo Stone Ocean con dos personajes sobre fondo azul y rojo">
+          <h3>JoJo's Bizarre Adventure: Stone Ocean</h3>
+          <p class="etiqueta">Manga de aventura</p>
+          <p class="precio">$199 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/demonslayer.jpg" alt="Portada de Demon Slayer volumen 8: espadachín de cabello rubio y rojo con una espada">
+          <h3>Demon Slayer vol. 8</h3>
+          <p class="etiqueta">Manga de acción</p>
+          <p class="precio">$169 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/jujutsu.jpg" alt="Portada de Jujutsu Kaisen volumen 7: personaje de cabello oscuro con sangre en el rostro">
+          <h3>Jujutsu Kaisen vol. 7</h3>
+          <p class="etiqueta">Manga de acción</p>
+          <p class="precio">$169 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="c-novelas">
+      <h2 id="c-novelas">Novelas gráficas</h2>
+      <div class="rejilla cuatro">
+        <article class="producto">
+          <img src="img/principito.jpg" alt="Portada de El Principito de Joann Sfar: niño de cabello rubio con bufanda y un avión rojo">
+          <h3>El Principito (Joann Sfar)</h3>
+          <p class="etiqueta">Novela gráfica</p>
+          <p class="precio">$349 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/emi.jpg" alt="Portada de Sueños rotos Emi de H. G. Santarriaga con ilustración en rojo y amarillo">
+          <h3>Sueños rotos: Emi</h3>
+          <p class="etiqueta">Novela gráfica</p>
+          <p class="precio">$289 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/dreaming.jpg" alt="Portada de The Dreaming número 1: mujer con alas en la oreja dentro de una biblioteca">
+          <h3>The Dreaming #1</h3>
+          <p class="etiqueta">Novela gráfica</p>
+          <p class="precio">$259 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+        <article class="producto">
+          <img src="img/jaguar.jpg" alt="Portada de La leyenda del Guerrero Jaguar: guerrero frente a un eclipse y otros personajes">
+          <h3>La leyenda del Guerrero Jaguar</h3>
+          <p class="etiqueta">Novela gráfica</p>
+          <p class="precio">$299 MXN</p>
+          <a href="contacto.html" class="boton-primario">Lo quiero</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p class="lema">Cómics · Manga · Novelas gráficas</p>
+    <p>&copy; 2026 Atomic Ink. Proyecto académico de Mercadotecnia Digital.</p>
+    <p>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#128247;</span> Instagram</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener"><span aria-hidden="true">&#127916;</span> TikTok</a>
+      <a href="contacto.html"><span aria-hidden="true">&#9993;</span> Contacto</a>
+    </p>
+  </footer>
+
+</body>
+</html>
